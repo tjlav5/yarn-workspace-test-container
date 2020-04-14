@@ -1,0 +1,13 @@
+{
+  "name": "node-http-server",
+  "version": "1.0.0",
+  "description": "Node.js example server starter project",
+  "scripts": {
+    "start": "yarn workspace app start"
+  },
+  "private": true,
+  "workspaces": ["packages/*"],
+  "dependencies": {},
+  "devDependencies": {},
+  "keywords": []
+}
