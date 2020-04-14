@@ -8,6 +8,8 @@
   "private": true,
   "workspaces": ["packages/*"],
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "typescript": "3.8.3"
+  },
   "keywords": []
 }

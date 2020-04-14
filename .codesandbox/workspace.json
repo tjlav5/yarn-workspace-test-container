@@ -8,16 +8,8 @@
         {
           "id": "codesandbox.browser",
           "options": {
-            "port": 41699,
-            "url": "https://5xbih-41699.sse.codesandbox.io"
-          },
-          "closeable": true
-        },
-        {
-          "id": "codesandbox.browser",
-          "options": {
             "port": 3000,
-            "url": "https://5xbih-3000.sse.codesandbox.io"
+            "url": "https://of504-3000.sse.codesandbox.io"
           },
           "closeable": true
         }

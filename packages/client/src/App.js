@@ -1,8 +1,12 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+
+import { foobar } from "shared/dist/foobar";
 
 function App() {
+  console.log(foobar());
+
   return (
     <div className="App">
       <header className="App-header">
@@ -16,7 +20,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn Reactyfoo
         </a>
       </header>
     </div>
