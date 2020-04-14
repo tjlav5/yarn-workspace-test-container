@@ -8,8 +8,16 @@
         {
           "id": "codesandbox.browser",
           "options": {
-            "port": 1234,
-            "url": "https://duqew-1234.sse.codesandbox.io"
+            "port": 41699,
+            "url": "https://5xbih-41699.sse.codesandbox.io"
+          },
+          "closeable": true
+        },
+        {
+          "id": "codesandbox.browser",
+          "options": {
+            "port": 3000,
+            "url": "https://5xbih-3000.sse.codesandbox.io"
           },
           "closeable": true
         }

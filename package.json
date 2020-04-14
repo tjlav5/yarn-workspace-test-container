@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Node.js example server starter project",
   "scripts": {
-    "start": "yarn workspace app start"
+    "start": "yarn workspace client start"
   },
   "private": true,
   "workspaces": ["packages/*"],
