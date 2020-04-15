@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Node.js example server starter project",
   "scripts": {
-    "startold": "yarn workspace client start",
-    "start": "tsc --build && yarn workspace client start"
+    "start": "yarn workspace client start",
+    "startold": "tsc --build && yarn workspace client start"
   },
   "private": true,
   "workspaces": ["packages/*"],
