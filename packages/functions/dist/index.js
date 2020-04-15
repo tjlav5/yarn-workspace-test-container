@@ -7,11 +7,14 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 exports.__esModule = true;
-// import { foobar } from "shared/foobar";
+var functions = __importStar(require("firebase-functions"));
 var foobarGroup = __importStar(require("./foobar"));
 function doStuff() {
     // return foobar();
 }
 exports.doStuff = doStuff;
+exports.yay = functions.https.onRequest(function (request, response) {
+    response.json({ foo: "bar" });
+});
 exports.foobar = foobarGroup;
 //# sourceMappingURL=index.js.map

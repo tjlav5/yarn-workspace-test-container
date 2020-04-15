@@ -6,7 +6,7 @@ export function doStuff() {
 }
 
 export const yay = functions.https.onRequest((request, response) => {
-  return "wowzah";
+  response.json({ foo: "bar" });
 });
 
 export const foobar = foobarGroup;
