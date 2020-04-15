@@ -12,6 +12,22 @@
             "url": "https://ynkul-3000.sse.codesandbox.io"
           },
           "closeable": true
+        },
+        {
+          "id": "codesandbox.browser",
+          "options": {
+            "port": 5001,
+            "url": "https://ikhlq-5001.sse.codesandbox.io"
+          },
+          "closeable": true
+        },
+        {
+          "id": "codesandbox.browser",
+          "options": {
+            "port": 4400,
+            "url": "https://ikhlq-4400.sse.codesandbox.io"
+          },
+          "closeable": true
         }
       ]
     },

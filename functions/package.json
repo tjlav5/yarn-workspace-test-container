@@ -1,0 +1,20 @@
+{
+  "name": "functions",
+  "version": "1.0.0",
+  "description": "FIrebase functions",
+  "main": "dist/index.js",
+  "scripts": {
+    "startold": "nodemon src/index.js",
+    "start": "tsc"
+  },
+  "dependencies": {
+    "shared": "1.0.0",
+    "firebase-functions": "3.6.0",
+    "firebase-admin": "8.10.0"
+  },
+  "devDependencies": {
+    "typescript": "3.8.3"
+  },
+  "keywords": [],
+  "engines": { "node": "10" }
+}
