@@ -1,3 +1,3 @@
 export function foobar() {
-  return "asdfa";
+  return "foofoo";
 }
