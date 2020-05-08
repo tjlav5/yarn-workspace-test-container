@@ -8,8 +8,8 @@
         {
           "id": "codesandbox.browser",
           "options": {
-            "port": 3000,
-            "url": "https://ynkul-3000.sse.codesandbox.io"
+            "port": 4000,
+            "url": "https://60shm-4000.sse.codesandbox.io"
           },
           "closeable": true
         },
@@ -17,7 +17,7 @@
           "id": "codesandbox.browser",
           "options": {
             "port": 5001,
-            "url": "https://ikhlq-5001.sse.codesandbox.io"
+            "url": "https://60shm-5001.sse.codesandbox.io"
           },
           "closeable": true
         }

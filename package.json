@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Node.js example server starter project",
   "scripts": {
-    "start": "yarn workspace functions start && firebase emulators:start --only functions  --project florida-fish",
+    "start": "firebase --open-sesame emulatorgui && yarn workspace functions start && firebase emulators:start --project florida-fish",
     "start-client": "yarn workspace client start",
     "startold": "tsc --build && yarn workspace client start"
   },

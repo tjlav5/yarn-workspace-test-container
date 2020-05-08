@@ -6,6 +6,7 @@ export function doStuff() {
 }
 
 export const yay = functions.https.onRequest((request, response) => {
+  console.log("hey there");
   response.json({ foo: "bar" });
 });
 
